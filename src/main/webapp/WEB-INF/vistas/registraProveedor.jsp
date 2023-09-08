@@ -75,11 +75,13 @@ $.getJSON("listaTipo", {}, function(data){
 
 
 
+
 $("#id_registrar").click(function (){   
 
 
 	//Lanza la validacion
 	var validator = $('#id_form').data('bootstrapValidator');
+	
     validator.validate();
     
 	//Pregunta si es valido el formulario(Si no tiene errores)
