@@ -122,6 +122,11 @@ $('#id_form').bootstrapValidator({
                 	message:'El nombre es de 5 a 100 caracteres',
                 	min : 5,
                 	max : 100
+                },
+                remote:{
+                	delay: 1000, //a cada segundo 
+             	 	url: 'buscaPorNombreModalidad', //ruta del controler 
+             	 	message: 'El Nombre ya existe' //el messaje 
                 }
             }
         },
