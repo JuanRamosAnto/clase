@@ -80,7 +80,7 @@ $("#id_registrar").click(function (){
 
 
 	//Lanza la validacion
-	var validator = $('#id_form').data('bootstrapValidator');
+	var validator = $('#id_form').data('bootstrapValidator'); 
 	
     validator.validate();
     
